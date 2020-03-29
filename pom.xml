@@ -32,6 +32,12 @@
 
         <!-- Database -->
         <mysql.version>5.1.46</mysql.version>
+
+        <!-- Utils -->
+        <lombok.version>1.16.18</lombok.version>
+        <guava.version>28.2-jre</guava.version>
+        <nekohtml.version>1.9.22</nekohtml.version>
+        <jackson.versino>2.9.6</jackson.versino>
     </properties>
 
     <dependencyManagement>
@@ -103,6 +109,30 @@
                 <!--<scope>runtime</scope>-->
             </dependency>
             <!-- Database End -->
+
+            <!-- Utils Begin -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+                <!--<scope>provided</scope>-->
+            </dependency>
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>net.sourceforge.nekohtml</groupId>
+                <artifactId>nekohtml</artifactId>
+                <version>${nekohtml.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.versino}</version>
+            </dependency>
+            <!-- Utils End -->
         </dependencies>
     </dependencyManagement>
 
