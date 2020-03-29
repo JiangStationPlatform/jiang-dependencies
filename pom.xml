@@ -37,7 +37,7 @@
         <lombok.version>1.16.18</lombok.version>
         <guava.version>28.2-jre</guava.version>
         <nekohtml.version>1.9.22</nekohtml.version>
-        <jackson.versino>2.9.6</jackson.versino>
+        <jackson.versino>2.10.2</jackson.versino>
     </properties>
 
     <dependencyManagement>
