@@ -38,6 +38,8 @@
         <guava.version>28.2-jre</guava.version>
         <nekohtml.version>1.9.22</nekohtml.version>
         <jackson.versino>2.10.2</jackson.versino>
+        <jackson-databind.versino>2.9.8</jackson-databind.versino>
+        <jackson-annotations.versino>2.9.8</jackson-annotations.versino>
     </properties>
 
     <dependencyManagement>
@@ -130,7 +132,18 @@
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-databind</artifactId>
-                <version>${jackson.versino}</version>
+                <version>${jackson-databind.versino}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>com.fasterxml.jackson.core</groupId>
+                        <artifactId>jackson-annotations</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-annotations</artifactId>
+                <version>${jackson-annotations.versino}</version>
             </dependency>
             <!-- Utils End -->
         </dependencies>
