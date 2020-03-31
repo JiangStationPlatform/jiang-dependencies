@@ -38,8 +38,8 @@
         <guava.version>28.2-jre</guava.version>
         <nekohtml.version>1.9.22</nekohtml.version>
         <jackson.versino>2.10.2</jackson.versino>
-        <jackson-databind.versino>2.9.8</jackson-databind.versino>
-        <jackson-annotations.versino>2.9.8</jackson-annotations.versino>
+        <jackson-databind.versino>2.9.10.3</jackson-databind.versino>
+        <jackson-annotations.versino>2.9.10</jackson-annotations.versino>
     </properties>
 
     <dependencyManagement>
