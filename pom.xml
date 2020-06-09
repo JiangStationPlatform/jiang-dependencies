@@ -40,6 +40,7 @@
         <jackson.versino>2.10.2</jackson.versino>
         <jackson-databind.versino>2.9.10.3</jackson-databind.versino>
         <jackson-annotations.versino>2.9.10</jackson-annotations.versino>
+        <jython.versin>2.7.0</jython.versin>
     </properties>
 
     <dependencyManagement>
@@ -144,6 +145,11 @@
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-annotations</artifactId>
                 <version>${jackson-annotations.versino}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.python</groupId>
+                <artifactId>jython</artifactId>
+                <version>${jython.versin}</version>
             </dependency>
             <!-- Utils End -->
         </dependencies>
