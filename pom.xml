@@ -31,7 +31,7 @@
         <spring-boot-pagehelper.version>1.2.5</spring-boot-pagehelper.version>
 
         <!-- Database -->
-        <mysql.version>5.1.46</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
 
         <!-- Utils -->
         <lombok.version>1.16.18</lombok.version>
