@@ -40,7 +40,7 @@
         <jackson.versino>2.10.2</jackson.versino>
         <jackson-databind.versino>2.9.10.3</jackson-databind.versino>
         <jackson-annotations.versino>2.9.10</jackson-annotations.versino>
-        <jython.versin>2.7.0</jython.versin>
+        <jython.versin>2.7.2</jython.versin>
     </properties>
 
     <dependencyManagement>
